@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-date_default_timezone_set('Asia/Jakarta');
+date_default_timezone_set('Asia/Kolkata');
 setlocale(LC_ALL, 'US');
 
 /*
@@ -25,7 +25,7 @@ setlocale(LC_ALL, 'US');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = "http://".$_SERVER['HTTP_HOST'];
+$config['base_url'] = "https://".$_SERVER['HTTP_HOST'];
 $config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/';
 /*
 |--------------------------------------------------------------------------
@@ -37,7 +37,7 @@ $config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME']))
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -380,10 +380,10 @@ $config['encryption_key'] = '86g9qciWe26TaQLNott9PALo3OSfG7nZ';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-$config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'ci_session';
+$config['sess_driver'] = 'database';
+$config['sess_cookie_name'] = 'ci_sessions';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = NULL;
+$config['sess_save_path'] = 'ci_sessions';
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
