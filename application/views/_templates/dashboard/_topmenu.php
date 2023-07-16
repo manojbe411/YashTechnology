@@ -1,6 +1,6 @@
 <a href="<?=base_url('dashboard')?>" class="logo">
-    <span class="logo-mini"><b>OES</b></span>
-    <span class="logo-lg"><b>O</b>nline <b>E</b>xam <b>S</b>ystem </span>
+    <span class="logo-mini"><b>YashTechnology</b></span>
+    <span class="logo-lg"><b>Y</b>ash <b>T</b>echno <b>l</b>ogy </span>
 </a>
 
 <nav class="navbar navbar-static-top" role="navigation">

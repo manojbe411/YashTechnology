@@ -7,10 +7,10 @@
 			<footer class="main-footer">
 				<!-- To the right -->
 				<div class="pull-right hidden-xs">
-					Online Examination System
+				Examination System
 				</div>
 				<!-- Default to the left -->
-				<strong>&copy; <?php echo date('Y')?> - Developed by Muhammad Ghifari Arfananda. </strong> All rights reserved
+				<strong>&copy; <?php echo date('Y')?> - Developed by MsoftTechnology. </strong> All rights reserved
 			</footer>
 
 			</div>
